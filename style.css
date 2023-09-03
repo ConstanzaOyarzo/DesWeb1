@@ -43,7 +43,8 @@ header {
 }
 
 .menu nav ul li:hover {
-    background: black;
+    background: #35022d;;
+    color: azure;
 }
 
 .menu nav ul ul {
@@ -108,4 +109,27 @@ footer div {
 body footer {
     padding-right: 1rem;
     padding-left: 1rem;
+}
+.contenedor2{
+    width: 650px;
+    height: 650px;
+    background-color:seashell ;
+    margin:100px auto;
+    margin-top: 2rem;
+    padding: 20px;
+    display: grid;
+    padding-left: 1rem; 
+    padding-right: 1rem;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.62);
+}
+.contenedor2 textarea{
+    width: 80%;
+    height: 30%;
+}
+section {
+    background-color:rgb(1, 101, 101) ;
+    margin:100px auto;
+    margin-top: 2rem;
+    padding: 150px;
+    display: grid;
 }
