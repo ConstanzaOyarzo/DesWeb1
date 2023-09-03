@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="robots" content="index, follow">
+    <meta name="descripcion" content="TecnoMundo es una pagina web que vende computadores y distintos dispositivos tecnologicos">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TecnoMundo</title>
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -15,10 +17,17 @@
         </div>
         <div class="menu">
             <nav>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="productos_servicios.html">Productos y servicios</a></li>
-                <li><a href="#">Quienes somos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos_servicios.html">Productos y servicios</a></li>
+                    <li><a href="#">Quienes somos</a>
+                        <ul>
+                            <li><a href="#" class="submenu_t">Historia</a></li>
+                            <li><a href="#" class="submenu_t">Equipo</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
             </nav>
         </div>
        

@@ -31,13 +31,13 @@ header {
     font-size: 2.0rem;
 }
 
-.menu nav ul {
+/* .menu nav ul {
     padding-right: 1.0rem;
-}
+} */
 
 .menu nav ul li {
-    position: relative;
-    float: left;
+    position: relative; /*no sacar, hace que el sub menu Historia y Equipo este abajo de Quienes somos*/
+    /* float: left; ESTE ERA EL PROBLEMA*/
     margin: 0;
     padding-right: 1.0rem;
 }
@@ -49,22 +49,22 @@ header {
 
 .menu nav ul ul {
     display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #30106b;
-    width: 65%;
+    position: absolute; /* importante */
+    /* top: 100%; */
+    left: 0; /*si sacas esto se va todo muy a la derecha por alguna razon*/
+    background-color: #481a6d;
+    /* width: 65%; */
 }
 
-.menu nav ul ul li {
+/* .menu nav ul ul li {
     text-align: center;
-}
+} */
 
-.submenu_t {
+/* .submenu_t {
     text-align: center;
     margin-left: 0;
     margin-right: 0;
-}
+} */
 
 .menu nav ul li:hover > ul {
     display: block;
