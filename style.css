@@ -4,7 +4,7 @@ body {
     margin-left: 0rem;
     margin-right: 0rem;
     color: #6b105C;
-    background-color: rgb(239, 232, 241);
+    background-color: white;
 }
 
 header {
@@ -97,7 +97,7 @@ header {
     font-size: 1.4rem;
 }
 
-section h1 {
+main h1 {
     text-align: center;
 }
 
