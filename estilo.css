@@ -1,16 +1,18 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-body{
+
+body { /*incluye las partesclaras de arriba y abajo, es todo menos el header*/
     background-color: teal;
 }
-.contenedor{
+.contenedor { /*lo de color casi blanco*/
     width: 850px;
-    height: 720px;
+    height: 90rem; /* 720px */
     background-color:seashell ;
     margin:100px auto;
     margin-top: 0rem;
+    margin-bottom: 5rem; /* Esto maneja el margen de abajo */
     padding: 20px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -25,75 +27,75 @@ body{
 
         ;
 }
-.foto-1{
+.foto-1 {
     grid-area: foto1;
     background-image: url(img/6.jpg); 
     background-size: cover;
     background-position: center;
 }
 
-.foto-2{
+.foto-2 {
     grid-area: foto2;
     background-image: url(img/7.jpg);
     background-size: cover;
     background-position: center;
 }
-.foto-3{
+.foto-3 {
     grid-area: foto3;
     background-image: url(img/8.jpg);
     background-size: cover;
     background-position: center;
 }
 
-.foto-4{
+.foto-4 {
     grid-area: foto4;
     background-image: url(img/9.jpg);
     background-size: cover;
     background-position: center;
 }
-.foto-5{
+.foto-5 {
     grid-area: foto5;
     background-image: url(img/10.jpg);
     background-size: cover;
     background-position: center;
 }
-.foto-6{
+.foto-6 {
     grid-area: foto6;
     background-image: url(img/11.jpg);
     background-size: cover;
     background-position: center;
 }
-.foto-7{
+.foto-7 {
     grid-area: foto7;
     background-image: url(img/12.jpg);
     background-size: cover;
     background-position: center;
 }
-.foto-8{
+.foto-8 {
     grid-area: foto8;
     background-image: url(img/13.jpg);
     background-size: cover;
     background-position: center;
 }
-.foto-9{
+.foto-9 {
     grid-area: foto9;
     background-image: url(img/14.jpg);
     background-size: cover;
     background-position: center;
 }
-.foto-10{
+.foto-10 {
     grid-area: foto10;
     background-image: url(img/15.jpg);
     background-size: cover;
     background-position: center;
 }
-.foto-11{
+.foto-11 {
     grid-area: foto11;
     background-image: url(img/16.jpg);
     background-size: cover;
     background-position: center;
 }
-.foto-12{
+.foto-12 {
     grid-area: foto12;
     background-image: url(img/18.jpg);
     background-size: cover;
@@ -127,7 +129,7 @@ body{
     width: 90%;
     cursor: pointer;
 }
-.fotos button:hover{
+.fotos button:hover {
     background-color:lightseagreen;
     color:seashell;
 }

@@ -17,6 +17,11 @@ header {
     padding: 0rem;
 }
 
+
+/* Menu */
+
+/* Parte izquierda */
+
 #izquierda_menu {
     display: flex;
     align-items: center;
@@ -31,9 +36,7 @@ header {
     font-size: 2.0rem;
 }
 
-/* .menu nav ul {
-    padding-right: 1.0rem;
-} */
+/* */
 
 .menu nav ul li {
     position: relative; /*no sacar, hace que el sub menu Historia y Equipo este abajo de Quienes somos*/
@@ -56,20 +59,9 @@ header {
     /* width: 65%; */
 }
 
-/* .menu nav ul ul li {
-    text-align: center;
-} */
-
-/* .submenu_t {
-    text-align: center;
-    margin-left: 0;
-    margin-right: 0;
-} */
-
 .menu nav ul li:hover > ul {
     display: block;
 }
-
 
 .menu nav ul ul {   /*esto esta manejando lo del sub menu*/
     padding-left: 2.2rem;
@@ -98,9 +90,14 @@ header {
     font-size: 1.4rem;
 }
 
+/**/
+
 main h1 {
     text-align: center;
 }
+
+
+/* Footer */
 
 footer div {
     font-size: 1.5rem;
@@ -110,7 +107,11 @@ body footer {
     padding-right: 1rem;
     padding-left: 1rem;
 }
-.contenedor2{
+
+
+/* Formulario, contacto */
+
+.contenedor2 { /*del formulario, contacto*/
     width: 650px;
     height: 650px;
     background-color:seashell ;
@@ -122,14 +123,24 @@ body footer {
     padding-right: 1rem;
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.62);
 }
-.contenedor2 textarea{
+
+.contenedor2 textarea { /*del formulario, contacto*/
     width: 80%;
     height: 30%;
 }
-section {
-    background-color:rgb(1, 101, 101) ;
-    margin:100px auto;
-    margin-top: 2rem;
-    padding: 150px;
+
+
+/* Productos y servicios */
+
+/* Es la parte mas oscura */
+
+#productos {
+    background-color:rgb(224, 147, 47) ; /*rgb(1, 101, 101) */
+    /* margin:0px; no esta haciendo nada */
+    margin-top: 2rem; /* Hace que se vea la parte clara de arriba */
+    padding: 50px; /* Esto es lo que mide la distancia entre la caja color teal y la parte de arriba */
     display: grid;
+    margin-bottom: 3rem;
+    padding-bottom: 0;
+    margin-bottom: 1rem;
 }
