@@ -135,7 +135,7 @@ body footer {
 /* Es la parte mas oscura */
 
 #productos {
-    background-color:rgb(224, 147, 47) ; /*rgb(1, 101, 101) */
+    background-color:rgb(1, 101, 101) ; /* rgb(1, 101, 101) */
     /* margin:0px; no esta haciendo nada */
     margin-top: 2rem; /* Hace que se vea la parte clara de arriba */
     padding: 50px; /* Esto es lo que mide la distancia entre la caja color teal y la parte de arriba */
