@@ -18,3 +18,10 @@ formulario_con.addEventListener("submit", function(event) {
     // Muestra los datos en una alerta
     alert(mensajeAlerta);
 });
+
+// Cambiar tamaño imagen
+
+function CambiaTamano(objeto, tamano){
+    objeto.style.width = tamano;
+    objeto.style.height = tamano;
+}
