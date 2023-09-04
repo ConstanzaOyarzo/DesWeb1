@@ -129,7 +129,7 @@ body { /*incluye las partesclaras de arriba y abajo, es todo menos el header*/
     width: 90%;
     cursor: pointer;
 }
-.fotos button:hover {
+.fotos button:active {
     background-color:lightseagreen;
     color:seashell;
 }
