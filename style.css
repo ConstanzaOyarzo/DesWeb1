@@ -149,6 +149,152 @@ footer {
     background-color: #6b105C;
 }
 
+/* Productos y servicios */
+/* Todo */
+
+* {
+    margin: 0;
+}
+
+/* Body productos */
+
+/* incluye el color mas claro de la parte superior e inferior */
+#body_productos {
+    background-color: teal;
+}
+
+/* contenedor */
+
+.contenedor { /*lo de color casi blanco*/
+    width: 850px;
+    height: 90rem; /* 720px */
+    background-color:seashell ;
+    margin:100px auto;
+    margin-top: 0rem;
+    margin-bottom: 5rem; /* Esto maneja el margen de abajo */
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    column-gap: 50px;
+    row-gap: 60px;
+    grid-template-areas: 
+        "foto1 foto2 foto3 "
+        "foto4 foto5 foto6 "
+        "foto7 foto8 foto9"
+        "foto10 foto11 foto12"
+
+        ;
+}
+
+/* Fotos */
+
+.foto-1 {
+    grid-area: foto1;
+    background-image: url(img/6.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+
+.foto-2 {
+    grid-area: foto2;
+    background-image: url(img/7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.foto-3 {
+    grid-area: foto3;
+    background-image: url(img/8.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.foto-4 {
+    grid-area: foto4;
+    background-image: url(img/9.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.foto-5 {
+    grid-area: foto5;
+    background-image: url(img/10.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.foto-6 {
+    grid-area: foto6;
+    background-image: url(img/11.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.foto-7 {
+    grid-area: foto7;
+    background-image: url(img/12.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.foto-8 {
+    grid-area: foto8;
+    background-image: url(img/13.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.foto-9 {
+    grid-area: foto9;
+    background-image: url(img/14.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.foto-10 {
+    grid-area: foto10;
+    background-image: url(img/15.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.foto-11 {
+    grid-area: foto11;
+    background-image: url(img/16.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.foto-12 {
+    grid-area: foto12;
+    background-image: url(img/18.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fotos {
+    position: relative;
+
+}
+
+.fotos p, .fotos button {
+    position: absolute;
+    bottom: 0;
+}
+
+.fotos p {
+    left: 0;
+    width: 90%;
+    text-align: center;
+    font-size: small;
+    color: azure;
+    padding: 20px;
+    background-color: rgba(88, 89, 89, 0.487);
+}
+
+.fotos button {
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(88, 89, 89, 0.686);
+    width: 90%;
+    cursor: pointer;
+}
+.fotos button:active {
+    background-color:lightseagreen;
+    color:seashell;
+}
 
 /* Formulario, contacto */
 
