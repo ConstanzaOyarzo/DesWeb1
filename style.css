@@ -306,6 +306,38 @@ footer {
     text-decoration: underline;
 }
 
+/* Equipo */
+
+#seccion_equipo h1 {
+    font-size: 3.0rem;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#seccion_equipo aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* #seccion_equipo aside img {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin: 0.5;
+} */
+
+#seccion_equipo section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#seccion_equipo section p {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+}
+
 
 /* Formulario, contacto */
 
