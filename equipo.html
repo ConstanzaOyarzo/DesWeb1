@@ -7,6 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TecnoMundo</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+        function CambiaTamano(objeto, tamano){
+            objeto.style.width = tamano;
+            objeto.style.height = tamano;
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -33,8 +39,8 @@
     <section> <!-- style="display: flex; flex-direction: column; align-items: center;" -->
         <h1 style="font-size: 3.0rem; text-decoration: underline; text-align: center;">Equipo</h1>
         <aside style="display: flex; align-items: center; justify-content: center;">
-            <img src="gatos/cat1.png" height="200" width="280" style="margin-right: 1rem;">
-            <img src="gatos/cat2.png" height="200" width="280" style="margin-left: 1rem;">
+            <img id = 'cat' src="gatos/cat1.png" height="220" width="280" style="margin-right: 1rem;" >
+            <img id = 'cat2' src="gatos/cat2.png" height="220" width="280" style="margin-left: 1rem;"  >
         </aside>
         <section style="display: flex; align-items: center; justify-content: center;">
             <p style="margin-right: 7rem;"><b>Yaninna Alvarez</b></p>
@@ -43,6 +49,19 @@
         <section style="display: flex; align-items: center; justify-content: center;">
             <p>Estudiantes de ingenieria civil en informatica.</p>
         </section>
+        <!--javas scrpit -->
+    <script>
+            //Inicializar los elementos que serán manipulados
+        const imagen1 = document.querySelector("#cat");
+        const imagen2 = document.querySelector("#cat2");
+        //Poner a escuchar los eventos requeridos por cada elemento
+        imagen1.addEventListener("mouseover",function() {CambiaTamano(this,'240px')});
+        imagen1.addEventListener("mouseout", function() {CambiaTamano(this,'220px')}); 
+  
+        imagen2.addEventListener("mouseover",function() {CambiaTamano(this,'240px')});
+        imagen2.addEventListener("mouseout", function() {CambiaTamano(this,'220px')}); 
+  
+     </script>
     </section>
     <footer style="background-color: #6b105C; position: fixed; bottom: 0; width: 100%;">
         <div style="color: white;">Derechos reservados</div>
