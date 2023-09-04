@@ -8,6 +8,11 @@
     <title>TecnoMundo</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+<script>
+    function Seguro_de_enaviar_datos(nombre){
+    alert(nombre,".Seguro de enviar estos datos ?");
+}
+</script>
 <body>
     <header>
         <div id="izquierda_menu">
@@ -37,7 +42,7 @@
         <br>
         <form>
             <label>Nombre:</label>
-            <input type="text">
+            <input type="text" id="nombre" name = 'nombre' placeholder = 'Ingrese su nombre' >
             <label>Apellido:</label>
             <input type="text">
             <br><br>
@@ -53,9 +58,9 @@
             <br><br><br>
             <label>Comentarios:</label>
             <br>
-            <textarea ></textarea>
+            <textarea></textarea>
             <br>
-            <button type="submit">Enviar</button>
+            <button type="submit" id = 'enviar' onclick="Seguro_de_enaviar_datos(nombre)">Enviar</button>
         </form>
     </div>
 
@@ -64,5 +69,6 @@
     <footer>
         <div>Derechos reservados</div>
     </footer>
+
 </body>
 </html>
