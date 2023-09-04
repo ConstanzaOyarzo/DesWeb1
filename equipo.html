@@ -8,12 +8,6 @@
     <title>TecnoMundo</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="mijava.js"></script>
-    <script>
-        function CambiaTamano(objeto, tamano){
-            objeto.style.width = tamano;
-            objeto.style.height = tamano;
-        }
-    </script>
 </head>
 <body>
     <header>
@@ -51,18 +45,7 @@
             <p>Estudiantes de ingenieria civil en informatica.</p>
         </section>
         <!--javas scrpit -->
-    <script>
-            //Inicializar los elementos que serán manipulados
-        const imagen1 = document.querySelector("#cat");
-        const imagen2 = document.querySelector("#cat2");
-        //Poner a escuchar los eventos requeridos por cada elemento
-        imagen1.addEventListener("mouseover",function() {CambiaTamano(this,'240px')});
-        imagen1.addEventListener("mouseout", function() {CambiaTamano(this,'220px')}); 
-  
-        imagen2.addEventListener("mouseover",function() {CambiaTamano(this,'240px')});
-        imagen2.addEventListener("mouseout", function() {CambiaTamano(this,'220px')}); 
-  
-    </script>
+    <script src="tamano.js"></script>
     </section>
     <footer style="background-color: #6b105C; position: fixed; bottom: 0; width: 100%;">
         <div style="color: white;">Derechos reservados</div>
