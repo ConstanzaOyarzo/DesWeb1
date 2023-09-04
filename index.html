@@ -7,6 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TecnoMundo</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        table, tr, td {
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -46,18 +51,42 @@
             <img src="imagenes/h4.jpg" height="200">
         </figure>
         <p><b>Todos los laptos con al menos 10% de descuento</b></p>
-
-        <table>
-            <thead>
-                <tr>
-                    <th>Marca</th>
-                    <th>Descuento</th>
-                </tr>
-            </thead>
-        </table>
+        <section style="display: flex; justify-content: center;">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Marca</th>
+                        <th>Descuento</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HP</td>
+                        <td>10%</td>
+                    </tr>
+                    <tr>
+                        <td>Dell</td>
+                        <td>25%</td>
+                    </tr>
+                    <tr>
+                        <td>Ace</td>
+                        <td>15%</td>
+                    </tr>
+                    <tr>
+                        <td>Asus</td>
+                        <td>20%</td>
+                    </tr>
+                </tbody>
+                <!-- <tfoot>
+                    <td>Total:</td>
+                    <td>49,80$</td>
+                </tfoot> -->
+            </table>
+        </section>
     </section>
-    <footer>
-        <div>Derechos reservados</div>
+    <br>
+    <footer style="background-color: #6b105C;">
+        <div style="color: white;">Derechos reservados</div>
     </footer>
 </body>
 </html>
