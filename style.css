@@ -296,6 +296,17 @@ footer {
     color:seashell;
 }
 
+/* Historia */
+
+#section_historia {
+    text-align: center;
+}
+
+#section_historia h1 {
+    text-decoration: underline;
+}
+
+
 /* Formulario, contacto */
 
 .contenedor2 { /*del formulario, contacto*/
