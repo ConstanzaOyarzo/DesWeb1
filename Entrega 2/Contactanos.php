@@ -51,9 +51,31 @@
                 <input type="submit">
             </form>
         </div>
+
         <div id="Comentario">
-            lugar de comentarios
+            <h2>Lugar de comentarios</h2>
+            <select name="" id="seleccionar">
+                <?php
+                    include("agregar.php");
+                ?>
+            </select>
+            <div id="mostrarComentario"></div>
         </div>
+        
+
+        <script>
+            const divCom = document.getElementById('Comentario');
+            const sel = document.getElementById('seleccionar');
+            sel.addEventListener('change', function(){
+                const rutElegido = sel.value;
+                fetch(`agregar.php?rut=${rutElegido}`)
+                .then(respuesta => respuesta.text() )
+                .then(data => {
+                    mostrarComentario.innerHTML = data;
+                })
+            });
+        </script>
+
     </div>
     <footer class="PiePagina">
         <p>Derechos reservados Tecno@Mundo.com </p>
