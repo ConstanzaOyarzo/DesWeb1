@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos.css">
+    <title>Productos&Servicios</title>
+</head>
+<body>
+    <header  class="Encabezado">
+        <div id="MenuIzq">
+            <img src="uct.png" alt="Logo Intituto Universitario" width="100px">
+            <h1>Tecno-Mundo</h1>
+        </div>
+        <div id="MenuDer">
+            <ul id="Menu"><li><a href="index.html">Inicio</a></li>
+                <li><a href="Productos&Servicios.html">Productos&Servicios</a></li>
+                <li><a href="Contactanos.html">Contactanos</a></li>
+                <li><a href="#">Quienes Somos</a>
+                    <ul><li><a href="Historia.html">Historia</a></li>
+                        <li><a href="Equipo.html">Equipo</a></li>
+                    </ul></li>
+                
+            </ul>
+        </div>
+    </header>
+    <div class="CuerpoPagina">
+        <section>
+            <h2>Produtos en ofertas!!</h2>
+            <p> Desde 20% ah un 40% De descuento en su primera compra. No dude en comprar esta es su pagina confiable</p>
+        </section>
+        <div class="Producto">
+            <div id="Contendor_Compu">
+                <!-- Codigo de la pagina -->
+            </div>
+        </div>
+    </div>
+    <script>
+        var contenidoA3 = document.querySelector('#Contendor_Compu')
+        function Traer(){
+            fetch('Productos.json')
+                .then( res => res.json())
+                .then( datos =>{
+                    Lista(datos)
+                })
+        }
+        function Lista(datos){
+            contenidoA3.innerHTML = ''
+            for(let valor of datos){
+                contenidoA3.innerHTML += `
+                <figure>
+                    <img src="${valor.Photo}" alt="Computador" width="90%">
+                    <figcaption>Tipo: .${valor.Informacion}</figcaption>
+                </figure>
+                <div id="Caracteristicas">
+                    <p>Precio: .${valor.Precio}</p>
+                    <p>Descuento: .${valor.Descuento}</p>
+                    <button id="${valor.Boton_de_Compra}"> Comprar</button>
+                </div>
+                `
+            }
+        }
+        Traer()
+    </script>
+</body>
+</html>

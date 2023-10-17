@@ -1,0 +1,75 @@
+[
+    {
+        "id":1,
+        "Photo":"https://ripleycl.imgix.net/https%3A%2F%2Fmercado.ripleylabs.com%2Fwp-content%2Fuploads%2F2023%2F08%2F6C242LA-1.jpg?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=f459bdc6b6a5db40d3e6874443c643d9",
+        "Precio":"$699.990",
+        "Boton_de_Compra":"Id11", 
+        "Informacion":"Notebook HP Pavilion 15-eh1503la AMD Ryzen7 8GB RAM 512GB SSD",
+        "Descuento":"20% Descuento"
+    },
+    {
+        "id":2,
+        "Photo":"https://home.ripley.cl/store/Attachment/WOP/D113/2000395850981/2000395850981_2.jpg",
+        "Precio":"$1.129.990",
+        "Boton_de_Compra":"Id12",
+        "Informacion":"Notebook Acer Core I5 16 1T+128 Rtx 3050",
+        "Descuento":"30% Descuneto"
+    },
+    {
+        "id":3,
+        "Photo":"https://falabella.scene7.com/is/image/Falabella/gsc_120125859_2582260_1?wid=800&hei=800&qlt=70",
+        "Precio":"$950.990",
+        "Boton_de_Compra":"Id13",
+        "Informacion":"Notebook HP PROBOOK 440 G9 Intel Core i5 8GB RAM 512GB SSD",
+        "Descuento":"40% Descuento"
+    },
+    {
+        "id":4,
+        "Photo":"https://falabella.scene7.com/is/image/Falabella/16702678_1?wid=800&hei=800&qlt=70",
+        "Precio":"$789.990",
+        "Boton_de_Compra":"Id14",
+        "Informacion":"HP Notebook 14-DQ2508LA Intel Core i3-1115G4 8GB RAM 256GB SSD 14 'Full HD",
+        "Descuento":"30% Descuento"
+    },
+    {
+        "id":5,
+        "Photo":"https://falabella.scene7.com/is/image/Falabella/15971264_1?wid=800&hei=800&qlt=70",
+        "Precio":"$1.099.980",
+        "Boton_de_Compra":"Id15",
+        "Informacion":"Notebook Asus Gamer TUF Dash F15 Intel Core i7 NVIDIA GeForce RTX 3060 16GB RAM 512GB SSD FHD 144Hz",
+        "Descuento":"10% Descuento"
+    },
+    {
+        "id":6,
+        "Photo":"https://falabella.scene7.com/is/image/Falabella/16725090_01?wid=800&hei=800&qlt=70",
+        "Precio":"$2.679.980",
+        "Boton_de_Compra":"Id16",
+        "Informacion":"Apple MacBook Pro 16'(Chip M2 Pro (12 núcleos CPU), 16 GB RAM, 512 GB SSD) - Gris espacial",
+        "Descuento":"30% Descuento"
+    },
+    {
+        "id":7,
+        "Photo":"https://falabella.scene7.com/is/image/Falabella/16740422_1?wid=800&hei=800&qlt=70",
+        "Precio":"$1.199.990",
+        "Boton_de_Compra":"Id17",
+        "Informacion":"Notebook Samsung Galaxy Book 3 Intel Core i5 1335U 8GB RAM 512 SSD",
+        "Descuento":"10% Descuento"
+    },
+    {
+        "id":8,
+        "Photo":"https://falabella.scene7.com/is/image/Falabella/15158631_01?wid=800&hei=800&qlt=70",
+        "Precio":"$599.990",
+        "Boton_de_Compra":"Id18",
+        "Informacion":"Notebook Ideapad 5 Amd Ryzen R5 8Gb Ram 512Gb Ssd Amd Radeon Graphics 14' Fhd Lenovo'",
+        "Descuento":"25% Descuento"
+    },
+    {
+        "id":9,
+        "Photo":"https://falabella.scene7.com/is/image/Falabella/15028801_01?wid=240&hei=240&qlt=70&fmt=webp",
+        "Precio":"$1.238.980",
+        "Boton_de_Compra":"Id19",
+        "Informacion":"Apple MacBook Air (13' con Chip M1 CPU 8 núcleos y GPU 7 núcleos, 8GB RAM, 256 GB SSD)",
+        "Descuento":"15% Descuento"
+    }
+
+]

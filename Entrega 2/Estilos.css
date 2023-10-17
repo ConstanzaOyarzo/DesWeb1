@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+* body{
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    margin-left: 2rem;
+    color:rgb(65, 5, 65);
+}
+.Encabezado {
+    grid-row: 1;
+    grid-template-columns: auto auto;
+    background-color: rgba(137, 43, 226, 0.394);
+}
+.Encabezado #MenuIzq{
+    display: flex;
+    grid-column: 1;
+    margin: 1rem;
+}
+.Encabezado #MenuDer{
+    display: block;
+    grid-column: 2;
+    text-align: end;
+}
+.Encabezado li,a{
+    display: inline;
+    padding: 0.3rem;
+    text-decoration: none;
+    color: rgb(238, 225, 243);
+}
+#Menu{
+    background: #35022dac;;
+    color: azure;
+}
+#Menu li a:hover{
+    color: black;
+}
+.CuerpoPagina{
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 34rem auto;
+    margin: 2rem;
+}
+.CuerpoPagina section{
+    margin-top: 5rem;
+    margin-right: 3rem;
+}
+.CuerpoPagina h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.4rem;
+    color: rgb(97, 19, 171);
+
+}
+.CuerpoPagina p,h4{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-bottom: 1rem;
+    color: rgb(83, 48, 115);
+}
+#Welcolme button{
+    padding: 0.6rem;
+    border-radius: 0.3rem;
+    width: 30rem;
+    border: 1px solid purple;
+    color: rgba(232, 225, 241, 0.978);
+    background-color: rgba(90, 12, 163, 0.664);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2px;
+}
+#Welcolme span{
+    font-family: monospace;
+    font-size: 10px;
+    padding: 0;
+    
+}
+figure figcaption{
+    color:rgb(35, 2, 66);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    text-align: end;
+}
+#Img1 img{
+    width: 100%;
+}
+#Caracteristicas button{
+    padding: 0.8rem;
+    width: 30%;
+    border-radius: 0.3rem;
+    border: 1px solid purple;
+    color: rgba(235, 227, 244, 0.978);
+    background-color: rgba(90, 12, 163, 0.664);
+    font-family:sans-serif;
+    font-size: 1.3rem;
+    margin: 2px;
+
+}
+#Caracteristicas button:hover{
+    background-color: rgb(43, 3, 81);
+    color: white;
+}
+
+/* Estilo en historia */
+#Historia{
+    margin: 0;
+    margin-left:4rem;
+}
