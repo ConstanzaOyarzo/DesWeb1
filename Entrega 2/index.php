@@ -1,7 +1,3 @@
-<?php
-    include("conex.inc");
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,7 +15,7 @@
         <div id="MenuDer">
             <ul id="Menu"><li><a href="index.html">Inicio</a></li>
                 <li><a href="Productos&Servicios.html">Productos&Servicios</a></li>
-                <li><a href="Contactanos.html">Contactanos</a></li>
+                <li><a href="Contactanos.php">Contactanos</a></li>
                 <li><a href="#">Quienes Somos</a>
                     <ul><li><a href="Historia.html">Historia</a></li>
                         <li><a href="Equipo.html">Equipo</a></li>
