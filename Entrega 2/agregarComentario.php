@@ -10,7 +10,7 @@
     include("conex.inc");
 
     $sql = "INSERT INTO comentarios (nombre, apellido, rut, telefono, correo, comentario)";
-    $sql .= "VALUES ('$nombre', '$apellido', '$telefono', '$correo', '$comentario')";
+    $sql .= "VALUES ('$nombre', '$apellido', '$rut', '$telefono', '$correo', '$comentario')";
     echo "El sql es: $sql";
 
     $resultado = mysqli_query($db, $sql);

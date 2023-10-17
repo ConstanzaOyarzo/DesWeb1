@@ -31,7 +31,7 @@
             
             <form id="formulario" method="get" action="agregarComentario.php">
                 <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name='nombre'>
+                <input type="text" id="nombre" name="nombre">
 
                 <label for="apellido">Apellido:</label>
                 <input type="text" id="apellido" name="apellido"><br>
@@ -51,13 +51,13 @@
                 <input type="submit">
             </form>
         </div>
-        <div id="Comentario">
+        <!-- <div id="Comentario">
             lugar de comentarios
-        </div>
+        </div> -->
     </div>
     <footer class="PiePagina">
         <p>Derechos reservados Tecno@Mundo.com </p>
     </footer>
-    <script src="mijava.js"></script>
+    <!-- <script src="mijava.js"></script> -->
 </body>
 </html>
