@@ -1,3 +1,7 @@
+<?php
+    include("conex.inc");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
