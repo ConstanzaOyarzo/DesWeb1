@@ -55,7 +55,6 @@ h1{
     left: 0;
     background-color: #481a6d;
 }
-<<<<<<< HEAD
 
 .menu nav ul li:hover > ul {
     display: block;
@@ -88,11 +87,6 @@ h1{
     color: white;
 }
 
-=======
-#menu nav ul li:hover > ul {
-    display: block;
-}
->>>>>>> b47b9a1564a4f7d797e57ae43650a7d1150565b1
 .CuerpoPagina{
     grid-row: 2;
     display: grid;
@@ -142,7 +136,8 @@ figure figcaption{
 }
 #Caracteristicas button{
     padding: 0.8rem;
-    width: 30%;
+    width: '180px';
+    height: '90px';
     border-radius: 0.3rem;
     border: 1px solid purple;
     color: rgba(235, 227, 244, 0.978);
@@ -166,7 +161,6 @@ figure figcaption{
 #Historia h2 {
     padding-bottom: 2rem;
     margin: 0;
-<<<<<<< HEAD
     text-decoration: underline;
 }
 #Historia p{
@@ -174,14 +168,6 @@ figure figcaption{
     width: 80%;
     text-align: center;
     margin: 5% 10% 0 10%;
-=======
-    margin-left:4rem;
-}
-#Formulaario{
-    grid-column: 1 /span 2;
-    display: block;
-    width: 40px;
->>>>>>> b47b9a1564a4f7d797e57ae43650a7d1150565b1
 }
 /*Tabla*/
 #contenedor2 {
