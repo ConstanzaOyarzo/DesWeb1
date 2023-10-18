@@ -8,20 +8,20 @@
 </head>
 <body>
     <header  class="Encabezado">
-        <div id="MenuIzq">
-            <img src="Imagen/uct.png" alt="Logo Intituto Universitario" width="100px">
-            <h1>Tecno-Mundo</h1>
-        </div>
-        <div id="MenuDer">
-            <ul id="Menu"><li><a href="index.html">Inicio</a></li>
-                <li><a href="Productos&Servicios.html">Productos&Servicios</a></li>
-                <li><a href="Contactanos.html">Contactanos</a></li>
-                <li><a href="#">Quienes Somos</a>
-                    <ul><li><a href="Historia.html">Historia</a></li>
-                        <li><a href="Equipo.html">Equipo</a></li>
-                    </ul></li>
-                
-            </ul>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Productos&Servicios.html">Productos y servicios</a></li>
+                    <li><a href="#">Quienes somos</a>
+                        <ul>
+                            <li><a href="historia.html" class="submenu_t">Historia</a></li>
+                            <li><a href="equipo.html" class="submenu_t">Equipo</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Contactanos.html">Contacto</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
     <div class="CuerpoPagina" >
