@@ -56,7 +56,7 @@
             <h2>Lugar de comentarios</h2>
             <select name="" id="seleccionar">
                 <?php
-                    include("agregar.php");
+                    include("seleccionar.php");
                 ?>
             </select>
             <div id="mostrarComentario"></div>
@@ -67,6 +67,6 @@
         <p>Derechos reservados Tecno@Mundo.com </p>
     </footer>
     <script src="comentario.js"></script>
-    <!-- <script src="mijava.js"></script> -->
+    <script src="mijava.js"></script>
 </body>
 </html>
