@@ -29,7 +29,7 @@
             <h2>Formulario de contacto</h2>
             <img src="Imagen/gatopc.jpg" height="200" alt="gato con una computadora">
             
-            <form id="formulario" method="post" action="agregarComentario.php">
+            <form id="formulario" method="get" action="agregarComentario.php">
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre">
 
@@ -61,25 +61,12 @@
             </select>
             <div id="mostrarComentario"></div>
         </div>
-        
-
-        <script>
-            const divCom = document.getElementById('Comentario');
-            const sel = document.getElementById('seleccionar');
-            sel.addEventListener('change', function(){
-                const rutElegido = sel.value;
-                fetch(`agregar.php?rut=${rutElegido}`)
-                .then(respuesta => respuesta.text() )
-                .then(data => {
-                    mostrarComentario.innerHTML = data;
-                })
-            });
-        </script>
 
     </div>
     <footer class="PiePagina">
         <p>Derechos reservados Tecno@Mundo.com </p>
     </footer>
+    <script src="comentario.js"></script>
     <!-- <script src="mijava.js"></script> -->
 </body>
 </html>
