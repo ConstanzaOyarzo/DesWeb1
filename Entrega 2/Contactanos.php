@@ -15,8 +15,8 @@
                     <li><a href="Productos&Servicios.html">Productos y servicios</a></li>
                     <li><a href="#">Quienes somos</a>
                         <ul>
-                            <li><a href="historia.html" class="submenu_t">Historia</a></li>
-                            <li><a href="equipo.html" class="submenu_t">Equipo</a></li>
+                            <li><a href="Historia.html" class="submenu_t">Historia</a></li>
+                            <li><a href="Equipo.html" class="submenu_t">Equipo</a></li>
                         </ul>
                     </li>
                     <li><a href="Contactanos.php">Contacto</a></li>
