@@ -14,7 +14,7 @@
 
     $respuesta = mysqli_query($db, $sql);
 
-    if ($respuesta) {
-        echo $sql;
-    }
+    // if ($respuesta) {
+    //     echo $sql;
+    // }
 ?>

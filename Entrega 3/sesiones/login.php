@@ -7,12 +7,10 @@
 </head>
 <body>
     <form action="valida.php" method="post">
-        <label for="user">
-            Usuario <input type="text" name="user">
-        </label>
-        <label for="pass">
-            Password <input type="text" name="pass">
-        </label>
+        <label for="user">Usuario:</label>
+        <input type="text" name="user">
+        <label for="pass">Password:</label>
+        <input type="text" name="pass">
         <input type="submit" value="Enviar">
     </form>
 </body>

@@ -12,9 +12,10 @@
 
     // Armo la consulta para chequear el login
     $sql = "SELECT * FROM usuarios WHERE user = '$user' AND password = MD5('$pass')";
-    echo $sql;
+    // echo $sql;
 
     $respuesta = mysqli_query($db ,$sql);
+    
     if (mysqli_num_rows($respuesta) == 0) {
         //error en usuario o password
         // echo "error";
