@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="TecnoMundo es una pagina web que vende computadores y distintos dispositivos tecnologicos">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecnoMundo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="izquierda_menu">
+            <img src="imagenes/uct.png" alt="logo de la universidad catolica de temuco">
+            <p>TecnoMundo</p>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos_servicios.html">Productos y servicios</a></li>
+                    <li><a href="#">Quienes somos</a>
+                        <ul>
+                            <li><a href="historia.html" class="submenu_t">Historia</a></li>
+                            <li><a href="equipo.html" class="submenu_t">Equipo</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>     
+    </header>
+
+    <div class="contenedor2">
+        <h1>Formulario de contacto</h1>
+        <img src="gatos/gatopc.jpg" height="200" alt="gato con una computadora">
+        <br>
+        <form id="formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name = 'nombre'>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido">
+            <br><br>
+            <label for="rut">Rut:</label>
+            <input type="text" id="rut" name="rut">
+            <label for="telefono">Telefono:</label>
+            <input type="text" id="telefono" name="telefono">
+            <br><br>
+            <label for="correo">E-mail:</label>
+            <input type="email" id="correo" name="correo">
+            <br><br><br>
+            <label for="comentario">Comentarios:</label>
+            <br>
+            <textarea id="comentario" name="comentario"></textarea>
+            <br>
+            <input type="submit">
+        </form>
+    </div>
+    <footer>
+        <div>Derechos reservados</div>
+    </footer>
+    <script src="mijava.js"></script>
+</body>
+</html>
